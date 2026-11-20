@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://generativelanguage.googleapis.com"
+      "destination": "https://generativelanguage.googleapis.com/:path*"
     }
   ]
 }
